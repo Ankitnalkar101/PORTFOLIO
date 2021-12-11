@@ -2,7 +2,7 @@ const btnTranslate = document.querySelector("#btn-translate");
 const outputDiv = document.querySelector("#output");
 const textInput = document.querySelector("#text-input");
 
-//var url = "https://lessonfourapi.tejs1.repl.co/translate/yoda.json";
+
 const url = "https://api.funtranslations.com/translate/yoda.json";
 function urlcreator(text) {
   return url + "?text=" + text;
